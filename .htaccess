@@ -1,0 +1,36 @@
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php/$1 [L]
+#Header set Access-Control-Allow-Origin "*"
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|css|woff|eot|ttf|svg|css|js|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+<FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>
+
+#Listen 80
+#ServerName localhost:80
+#Listen 443
+#<VirtualHost _default_:4499>
+#<LocationMatch "^/(?i:(?:xampp|security|licenses|phpmyadmin|webalizer|server-status|server-info))">
+#        allow
+#        allow from all
+#	Allow from ::1 127.0.0.0/8 \
+#                fc00::/7 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 \
+#                fe80::/10 169.254.0.0/16
+#
+#	ErrorDocument 403 /error/XAMPP_FORBIDDEN.html.var
+#</LocationMatch>
+
+#PerlSwitches -T
+
+
