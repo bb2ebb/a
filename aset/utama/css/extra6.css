@@ -1,0 +1,152 @@
+.chronobank-ad {
+    background: #000;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    width: 900px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+    border: solid;
+    border-width: 1px;
+    transition: background 0.5s ease;
+}
+
+.chronobank-ad:hover {
+    background: #141348;
+}
+
+.chronobank-logo {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAcCAMAAADLCWbaAAAATlBMVEUAAADiqWTkqWPiqWRKj7jiqWTkqWPiqWRIj7pKj7hIj7pKj7lKj7hKj7lJj7lKj7niqWRKj7lHjrriqWRKj7jiqWRKj7niqGTiqWTiqWSocHs6AAAAGnRSTlMA+gzT/r0s6BDpKdJNhW9ggLk9pJVNqGhcPVuU3WIAAAFJSURBVDjLjZMJjsMgDEVtQ9hD9ra5/0XHkNTJLGj6pViRefBtZIAWZFlsypZvIYAFrVLIoSEGS1gA0BKRQkMNGVQcLRKgAnhhB011+AJQlWQQdxC5MM/BgWhHRitpO8TnxfVRs/waJPVE7Ip7qXiTbPIM5VzwLMmtdFzO3Elyg/ZDNaYUdS9p2s+ORLP2YuomPYDo6Ihka9ShljpX1HsnKz/IdBiG03fQuUU+dLiTzkdqkDHSQeb3Tvc36fwEB/lIKTHU6/AfWZSEbLtTGliu6c5a5QzxaJCzXu9kbt8STFydKPy++W+Ls/zH+7ZK2tFIImnd14Nc9pc3mBGPqcPxKpXHbVrXBw9fEmvm6tSpkd/T1fAweb7NmJ2kFrY9p84onv9LLoSKycgrA++ODIeWGDIcap2bMYpDQxsqDqXOET/SWOroPtAT4AsJkg5nZk8eewAAAABJRU5ErkJggg==');
+    height: 25px;
+    width: 37px;
+    background-size: 37px;
+    display: block;
+}
+
+.chronobank-add-middle {
+    margin: auto;
+    display: inline-block;
+    padding-top: 8px;
+    margin-left: 8px;
+    width: 383px;
+}
+
+.chronobank-logotext {
+    margin-left: 93px;
+    line-height: 26px;
+    font-size: 25px;
+}
+
+.chrono-bold {
+    font-weight: 800;
+}
+.chrono-thin {
+    font-weight: 100;
+}
+
+.chrono-text-content {
+ height: 100%;
+    width: 400px;
+    float: left;
+    color: #fff;
+    background: #ccc;
+    text-align: right;
+    border-radius: 0px 3px 3px 0px;
+    padding-right: 8px;
+    transition: background 0.5s ease;
+}
+
+.chrono-text-content:hover {
+    background: #fff;
+}
+
+.chronotext-top {
+    width: 100%;
+    display: block;
+    line-height: 15px;
+    font-size: 13px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.chronotext-bottom {
+    width: 100%;
+    display: block;
+    color: #cc2424;
+    font-size: 13px;
+}
+
+.chrono-clock {
+ 	margin-top: 2px;
+    margin-left: 3px;
+    border-color: #0091bc;
+    border-style: solid;
+    border-width: 5px;
+    width: 25px;
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    border-radius: 30px;
+    float: left;
+    -webkit-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.55);
+    -moz-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.55);
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.55);
+}
+
+.chono-clock-arrows {
+    border-style: solid;
+    border-width: 0px 0px 4px 4px;
+    width: 6px;
+    height: 6px;
+    border-color: #0091bc;
+    display: block;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.chronobank-joinbutton {
+    text-align: center;
+    float: right;
+    display: inline-block;
+    background: #6d1919;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px 0px 0px 0px;
+    transition: background 0.5s ease;
+}
+
+.chronobank-joinbutton:hover {
+    background: #7f5454;
+}
+
+.chronobank-franklin-head {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAABCCAMAAADaI461AAAA/1BMVEUAAAB6dG3xvIFjY2LzvoNxcXHrtnqAgH5kY2Lrtnrmr3LptHabm5uKiIfxvIGMi4rrtnrrtnqmpqZ7eXfrtnrAlWb4xIqPjIlhYWFycW+Mi4nkrXD3w4hWVlb3xIlybWY1NTX4xYtFQ0H4xYuxsbFFREOdnZ3V1dW5ubm3t7e9m3WCgoLmsHJGRkWXl5fz8/N4eHhUVFSNjY3Y2Ng5OTn8/Pxubm7wu3+hoaEsLCxfX1/j4+Oqqqq0tLTr6+v4w4jHx8dnZ2e9vb3Pz88hISFxaF5qXE7XqHMSEhLLnmuHclx7a1lcU0iNe2axi2Gkg1+Sdle2nH7esH2hjHazk3CvIK8fAAAAK3RSTlMAF9GEJi/r57oas4jeu7CCdlNQUDb78e7t1dDOuaOHZF5bTUUy0a7UsYxs6lUD/AAABhdJREFUSMftl9e2mzAQRdN77733sZSRIIoQEiAgvZf//5acEU6cXt5z7GVzvbSZLl22/NeWndsPHjh97tbh41v/Cdt6+aCOKY3yPrB9699z23fHsWrbrq2g4e/Zy7t9qtruvqgDPQz+7M6/AS+yTgO4B1Ch22qKu7f+BUjkh0rADdpOes8fwWuOfRxakBsUHie7/U/JOeMIUXYCblDE6ukPoe4JrOP3JNDJ29/7ezmwjWnjrGhx1xNf+zW348Ij57UfF3LD3e+qSTNf/CV4qe8NEfk4gfyMrms6as5ntv7C4La+fxQYCfJD231PDp5zuPJT8Pqpvn9ugnNk9VgJuQmyFZJcvvkz8Grf9++FI3J6qLoNupBJswnq3s9A6INjtsRObEpZumn0MY0VNFpnTDAvrv7gai96x0zWZmdTJe1eRQp1YxyqNDpT17Uxqr/+XXIQY7FJmkgF9hPIdsRNjFJZp0k3c9PUtTLvTu34htwmXMms1laZrGGzaxOlKnHQ1f0qzCor0aN+23d1FD0xBrXUQWVftfe7QUeuM9mxe1CpmizB2fpR31/6yte+f4jXG2UCKkIZkcFmGy0FE22S2jrjahMWst/4e6EXvTUGfjqH0DhVpRbVNI5+uo8066Cd2GyEvPAZPNHDJlwNASg+laJBcivwoHUnZDTWMkw2L3roxJo89FD0OBPaCyZVo+xCdh0avXvQwd2kiJyQL2XtoQXc+7AoZMoQh6ZxfsT+VfyVzpfPyrDmIHd9L4v3FvLIQ6Tn4TvjGEZdVs3MPg1AO5BlvpDoFsWxRCBfCXlkqeXirGPUkhDkPBOaBsvbCng7Jtl3K6d08lw3jRGj2zbOPkFWtY+5rhv1lGOCUQjMFAcfMrJTU8R9m1o9kvUyqEcL+Sg4q8WbOVjcwqPNp0nYse0I3VPXc/Zk8K3UM6w/CnK/gCdDYCJ2an5q/Ki9RqSDmB0qyVAyzTwbS6ZuQD4GsP9zTTDRxNYF8/RprZMuRgfE+tllz0phBUgYfSl1+ZygF0Z2kWzU06ez80xeg5ymMY3Rj2j40RvDvCFLinYtpMvsJLFP56ZuaO1u8tZSjDpFxIoFINcp2gVyqQnaDr4q1TydgerodSEjtjIEG7UNtXJ5IV+tyRX0RgECCGGAkeYUfRyHcRyWs7BK1tTS0QKaj4KsSSVpL6ip56eZKEJLjsrAlJYNa5NhtXq4Epu7QL4wCqGDrFU9z0GT/oyWkkZLMrTGNCBrMVm83YaL10oVR2qoUaS9jfA3JZ+ALjAhfyWzj1cP8ZLc7ltBj5WCJ8AQpgGBRoQ86YJiTBM5LMHr45OVaJ/00GoxWgsoiQ2xHYAWknRp/iFpp6Dnz1+vFu2XvpWLJwuJOGYTLAba6wjaWy23SFYsvnlsnsHgoqMyK+Xqg8SoBM6OJ9mkvSdw5Jy0M/Rq9VIBXKscaudX60iNxKGIyONIaSMols3HlJuCev742Wfw/LInlOu3texeeJO1esJB1HrNWbYJxAG9wppnX0jsCZ/dffZYhRwY3ctw0reCWvyZZROV2Xq++lqyDy11eWuciJgIJGasA1pxCKHspYhkE2OpyaITJx9hghwDI0tSCe9hFWkiAyYb2cKR2w154ss/MgXi4qi1hGpErSucuV1ElFIwlREsErQxuWgnFVRyI8I3ZpJHnLztYEvTccBG1Kh1H3x1Dh5GdNrC4iIrHW+dxxk2pWglEGls6O26fzY6p8UOCJHXlrUHoWUfifjTZbVGXz4rtdxo627SiI8slml5S7CWbaoG/ELsZI6ErNXJ4utGx6wjR2sS35D28ksaxV3T1MZgkBDytW9BoOTYWCrdinx5zjArDagTPk3QQ5UINq98DwIFSVjNDJvOUgiMlsjOytTo1Mr5lAD+RMfPGBQ0kkNgjmwIGQlPDKfx63KId8d+8XxyM5NNOlgmMAwXrU6WkSqwHhN++8aWX2k7yAh7xAGDApQ8camwUxTv/vax6GBMmMpMCBn1N8EZZ63YpD1/euy4cQdRBlJsGU47pFUKzLdu/NXz0dlMKmtitoEkWwcOb/3rh6vj2/ec232aTu8+e/BXD3SfAE8+CJCWGEmgAAAAAElFTkSuQmCC');
+    height: 43px;
+    width: 49px;
+    background-size: 49px;
+    float: left;
+    margin-top: -3px;
+    margin-left: -15px;
+}
+
+.chronotextjoinbutton-top {
+    display: block;
+    color: #fff;
+    line-height: 12px;
+    margin-top: 8px;
+}
+
+.chronotextjoinbutton-bottom {
+    line-height: 18px;
+    color: #ff8700;
+}
+
+.chronologo-color-1 {
+    color: #4b8fb9;
+}
+
+.chronologo-color-2 {
+    color: #d9a162;
+}
+

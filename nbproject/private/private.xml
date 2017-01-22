@@ -3,12 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/xampp/htdocs/application/controllers/Jumlahsiswa.php</file>
-            <file>file:/D:/xampp/htdocs/application/controllers/Test.php</file>
-            <file>file:/D:/xampp/htdocs/application/views/test.php</file>
-            <file>file:/D:/xampp/htdocs/application/controllers/Dashboard.php</file>
-            <file>file:/D:/xampp/htdocs/application/views/siswadashbor/jumlahsiswa.php</file>
-            <file>file:/D:/xampp/htdocs/application/views/siswadashbor/dashborsiswa.php</file>
+            <file>file:/opt/lampp/htdocs/application/views/inp.php</file>
+            <file>file:/opt/lampp/htdocs/application/views/inp_tt.php</file>
+            <file>file:/opt/lampp/htdocs/application/views/piew.php</file>
+            <file>file:/opt/lampp/htdocs/application/views/welcome_message.php</file>
+            <file>file:/opt/lampp/htdocs/application/controllers/Input.php</file>
+            <file>file:/opt/lampp/htdocs/application/controllers/View.php</file>
+            <file>file:/opt/lampp/htdocs/application/controllers/Welcome.php</file>
         </group>
     </open-files>
 </project-private>
