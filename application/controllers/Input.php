@@ -4,7 +4,10 @@ class Input extends CI_Controller {
 
     public function index() {
         date_default_timezone_set("Asia/Jakarta");
+        $data['dataaction'] = "input";
         $koreksi = [
+            "[list|]", "[/list|]",
+            "[li|]", "[/li|]",
             "[b|]", "[/b|]",
             "[i|]", "[/i|]",
             "[u|]", "[/u|]",
@@ -13,9 +16,13 @@ class Input extends CI_Controller {
             "[glow|]", "[/glow|]",
             "[btc|]",
             "\n",
-            " :)"
+            "[list|decimal|]",
+            " :)",
+            " ;D"
             ];
         $betul   = [
+            "<ul style=\"margin-top: 0; margin-bottom: 0;\">", "</ul>",
+            "<li>", "</li>",
             "<b>", "</b>",
             "<i>", "</i>",
             "<u>", "</u>",
@@ -24,7 +31,9 @@ class Input extends CI_Controller {
             "<span style=\"background-color: red;\">", "</span>",
             "<span class=\"BTC\">BTC</span>",
             "<br/>",
-            " <img src=\"/aset/utama/image/smiley.gif\" alt=\":)\" border=\"0\">"
+            "<ul style=\"margin-top: 0; margin-bottom: 0; list-style-type: decimal;\">",
+            " <img src=\"/aset/utama/image/smiley.gif\" alt=\":)\" border=\"0\">",
+            " <img src=\"/aset/utama/image/grin.gif\" alt=\":)\" border=\"0\">"
             ];
         $data['datetime'] = date("d F Y H:i:s");
         $data['kategori'] = $this->db->get('kategori')->result();

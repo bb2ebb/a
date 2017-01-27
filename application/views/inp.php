@@ -38,7 +38,8 @@
             </table>
         </div>
         <div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
-            <form action="input" method="post" name="postmodify" id="postmodify" enctype="multipart/form-data" style="margin: 0;">
+            <form action="<?php echo $dataaction; ?>" method="post" name="postmodify" id="postmodify" enctype="multipart/form-data" style="margin: 0;">
+                <input type="hidden" name="iddd" value="<?php echo (isset($id))?$id:""; ?>">
                 <div id="preview_section" style="display: none;">
                     <table border="0" width="100%" cellspacing="1" cellpadding="3" class="bordercolor" align="center" style="table-layout: fixed;">
                         <tr class="titlebg">
@@ -227,7 +228,7 @@
                                             <img  src="/aset/utama/image/quote.gif" align="bottom" width="23" height="22" alt="Insert Quote" title="Insert Quote" style="background-image: url(/aset/utama/image/bbc_bg.gif); margin: 1px 2px 1px 1px;" />
                                         </a>
                                         <img src="/aset/utama/image/divider.gif" alt="|" style="margin: 0 3px 0 3px;" />
-                                        <a href="javascript:void(0);" onclick="surroundText('[list]\n[li]', '[/li]\n[li][/li]\n[/list]', document.forms.postmodify.message); return false;">
+                                        <a href="javascript:void(0);" onclick="surroundText('[list|]\n[li|]', '[/li|]\n[li|][/li|]\n[/list|]', document.forms.postmodify.message); return false;">
                                             <img  src="/aset/utama/image/list.gif" align="bottom" width="23" height="22" alt="Insert List" title="Insert List" style="background-image: url(/aset/utama/image/bbc_bg.gif); margin: 1px 2px 1px 1px;" />
                                         </a>
                                     </td>

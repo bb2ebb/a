@@ -74,12 +74,13 @@
                                         <th>Materi</th>
                                         <th>Kategori</th>
                                         <th>Tanggal Masuk</th>
+                                        <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <?php
                                     foreach ($tabelinduk as $v) {
-                                        echo '<tr><td><a target="_blank" href="/view?id='.$v->id.'">'.$v->judul.'</a></td><td>'.$v->kategori.'</td><td>'.$v->dateinput.'</td></tr>';
+                                        echo '<tr><td><a target="_blank" href="/view?id='.$v->id.'">'.$v->judul.'</a></td><td>'.$v->kategori.'</td><td>'.$v->dateinput.'</td><td><a href="/edit?id='.$v->id.'">edit</a></td></tr>';
                                     }
                                     ?>
                                 </tbody>
